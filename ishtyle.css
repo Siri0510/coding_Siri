@@ -1,0 +1,105 @@
+/*Aadhyaa*/
+
+body {
+	background: url('imgs/back.png') center center no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: Courier, monospace;
+	float: center;
+
+}
+
+#container {
+	width: 620px;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	padding: 20px 10px;
+	border-bottom: solid 1px white;
+}
+ 
+nav{
+	margin-top: 10px;
+	left: 0;
+}
+
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 12px;
+	padding: 0 10px;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	color: #ffea00;
+}
+
+a:hover{
+	color: #ffea00;
+	animation-name: buttonAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+#tagline {
+	text-align: center;
+	margin: 50px 0 0;
+}
+
+#tagline h1{
+	margin-bottom: 500px;
+}
+
+@keyframes buttonAnimation {
+	from{height: 50px; width: 50px; font-size: inherit;}
+	to{height: 50px; width: 130px; font-size: 24px}
+}
+
+a.button{
+	background: #23c;
+	display: block;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	margin: 0 auto;
+	background: linear-gradient(#fc3, #f91);
+	color: white;
+	font-size: 18px;
+	line-height: 50px;
+	border: solid 1px #222;
+
+}
+
+a.button:hover{
+	border-color: #333;
+	text-shadow: 0 1px 2px rgb(0, 0, 0, 0.6);
+	background: #f91;
+	background: linear-gradient(to top, black, #fc3450);
+	animation-name: buttonAnimation;
+	animation-duration: 1s;
+	animation-fill-mode: forward;
+	border-radius: 100%;
+
+}
+
+
+a.button:active {
+	position: relative;
+	top: 2px;
+}
+
+
